@@ -1,0 +1,720 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "indigo pokedex",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PokemonDetails",
+                    "slots": [
+                        {
+                            "name": "pokemon",
+                            "type": "PokemonName",
+                            "samples": [
+                                "name is {pokemon}",
+                                "name of the pokemon is {pokemon}",
+                                "{pokemon}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "find {pokemon}",
+                        "search {pokemon}",
+                        "give me details of {pokemon}",
+                        "tell me about {pokemon}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "PokemonName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Pikachu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mew"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mewtwo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dragonite"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dragonair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dratini"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Articuno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Moltres"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zapdos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Snorlax"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ditto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lapras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gyarados"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Magikarp"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pinsir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Starmie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Staryu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Seaking"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Goldeen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weezing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Koffing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lickitung"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hitmonchan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hitmonlee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Electrode"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Voltorb"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kingler"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krabby"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hypno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Drowzee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Onix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gengar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haunter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gastly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cloyster"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shellder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Muk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Grimer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dewgong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Seel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Magneton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Magnemite"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Slowbro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Slowpoke"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rapidash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ponyta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Golem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Graveler"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Geodude"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tentacruel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tentacool"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Victreebel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weepinbell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bellsprout"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Machamp"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Machoke"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Machop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alakazam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kadabra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Abra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Poliwrath"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Poliwhirl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Poliwag"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arcanine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Growlithe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Primape"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mankey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Golduck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Psyduck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Persian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meowth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dugtrio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diglett"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Venomoth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Venonat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parasect"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vileplume"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gloom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oddish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Golbat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zubat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wigglytuff"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jugglypuff"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ninetales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vulpix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clefable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clefairy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nidoking"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nidorino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nidoqueen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nidorina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nidoran"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sandslash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sandshrew"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Raichu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arbok"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ekans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fearow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Spearow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Raticate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rattata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pidgeot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pidgeotto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pidgey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beedrill"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kakuna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weedle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Butterfree"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Metapod"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Caterpie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Blastoise"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wartortle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Squirtle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Charizard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Charmeleon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Charmander"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Venusaur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ivysaur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bulbasaur"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "PokemonDetails",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "pokemon",
+                            "type": "PokemonName",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.813305218260.1368480076362"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.813305218260.1368480076362.1231775961719"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.813305218260",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is the name of the Pokemon you are looking for?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.813305218260.1368480076362",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Can you tell me the name of the pokemon"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the name of the pokemon"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the name of the pokemon you are looking for?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.813305218260.1368480076362.1231775961719",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "The specified name is not in my database. I only support the original pokemon."
+                    }
+                ]
+            }
+        ]
+    }
+}
